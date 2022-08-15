@@ -1,0 +1,62 @@
+.box1 {
+  background-color: skyblue;
+  width: 400px;
+  height: 233px;
+  /* display: inline; */
+  /* display: block; */
+  display: inline-block;
+  /* visibility: hidden; */
+}
+.box2 {
+  background-color: red;
+  width: 400px;
+  height: 233px;
+  line-height: 47px;
+  /* display: inline; */
+  /* display: block; */
+  display: inline-block;
+  /* display: none; */
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+/* display line makes the elment as an inline function without the use of the width and the height  */
+/* display block is used to make as a block element */
+/* display none is used for the deleting the space occupied by an element and made it to use again  */
+.box3 {
+  background-color: pink;
+  color: black;
+  text-align: center;
+}
+.box4 {
+  background-color: yellow;
+  text-decoration: underline;
+  text-align: center;
+  /* text-transform: capitalize;for the first letter capital */
+  text-transform: uppercase;
+  /* for complete uppercase */
+  /* text-transform: full-width; converts to the full width form of the letters */
+}
+.box5 {
+  background-color: grey;
+  width: 400px;
+  height: 400px;
+  /* font-family: cursive; */
+  /* font-family: ubantu, "courier New", Courier, monospace; */
+  /* if a specific font is absent then it moves to the next font mentioned ubantu underlines the font used  */
+  font-family: "Redressed", cursive;
+  /* in this way we will exract the font from the google fonts */
+}
+.box6 {
+  background-color: red;
+  color: white;
+  width: 300px;
+  height: 300px;
+  /* font-size: 20px; */
+  /* font-weight: lighter; */
+  /* font-weight: 900; */
+  font-style: oblique 30deg;
+  font-variant: normal;
+  /* font varient tells about the varaiation in the letter go to mdn for more references */
+}

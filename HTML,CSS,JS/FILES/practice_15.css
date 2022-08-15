@@ -1,0 +1,32 @@
+header {
+  height: 120px;
+  background-color: black;
+}
+main {
+  background-color: blue;
+  height: 900px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.progress {
+  /* width: ; */
+  background-color: red;
+  height: 4px;
+  animation: anime 2s ease-in 1s 1 forwards;
+}
+@keyframes anime {
+  0% {
+    width: 0vw;
+  }
+  50% {
+    width: 60vw;
+  }
+  99% {
+    width: 100vw;
+  }
+  100% {
+    visibility: hidden;
+  }
+}

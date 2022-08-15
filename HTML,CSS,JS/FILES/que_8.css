@@ -1,0 +1,22 @@
+ul {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+}
+ul li {
+  list-style: none;
+  margin: 0px 30px;
+}
+header {
+  background-color: black;
+  color: white;
+}
+@media screen and (max-width: 800px) {
+  .CONTAINER {
+    background-color: red;
+  }
+}
+@media screen and (max-width: 500px) {
+  .CONTAINER {
+    background-color: yellow;
+  }
+}

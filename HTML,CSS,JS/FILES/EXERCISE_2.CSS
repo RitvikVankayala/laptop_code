@@ -1,0 +1,25 @@
+.ur {
+  background-color: yellowgreen;
+  color: antiquewhite;
+}
+/* priority order in different types of linking:-
+inline>style>external style */
+p {
+  color: blueviolet;
+}
+body {
+  background-color: aqua;
+}
+h1 {
+  color: red;
+}
+/* id-# and class-. */
+h2,
+h3,
+h4 {
+  border: 2px solid black;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}

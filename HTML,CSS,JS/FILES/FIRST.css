@@ -1,0 +1,145 @@
+/*UNIVERSAL SELECTOR SELECTS ALL THE ELEMENTS PRESENT IN OUR HTML*/
+
+/*
+syntax for iniversal selector
+*{
+    color:rgb(56, 39, 209);
+} 
+*/
+
+/* ELEMENT SELECTOR IS USED FOR SELECTING THE ALL ELEMENTS OF THAT TAG */
+
+/*
+syntax for  element selector
+h1{
+    //normal code
+}
+*/
+/* priority order in different types of linking:-
+inline>style>external style */
+
+/* SIMILIARLY IF THE IMAGE IS IN OTHER FOLDER THEN U NEED TO USE CORRECT DIRECTORY IMAGE/BACKGROUND.jpg */
+
+/*
+color:rgb(0,255,0);
+color :rgb(0,0,255); 
+for pure red,green,blue respectively
+*/
+
+/*
+p{
+    color :rgb(255,0,0);
+    background-image: url("BACKGROUND.jpg");
+} 
+*/
+
+/*
+ID SELECTOR IS USED FOR THE SELECTION THAT IS PRESENT WITH A CERTAIN ID NAME AS AN ATTRIBUTE IN THE HTML FILE
+SYNTAX
+#ID NAME
+{
+    //CODE
+}
+*/
+
+/*
+ CLASS SELECTOR IS USED TO SELECT CERTAIN DIFFERENT TAGS FOR selection
+SYNTAX
+.CLASS NAME{
+    //CODE
+}
+*/
+
+/* 
+RGB COLOUR SYSTEM->
+rgb(channel 1,channel 2,channel 3)
+channel 1-red
+channel 2-green
+channel 3-blue
+range-[0-255]
+ */
+
+/*
+ HEXADECIMAL SYSTEM->
+#rrggbb
+rr->hexadecimal form of channel 1
+gg->hexadecimal form of channel 2
+bb->hexadecimal form of channel 3 
+*/
+
+h1 {
+  color: rgb(10, 255, 10);
+  border: 10px solid rgb(240, 18, 240);
+  background-color: yellow;
+}
+
+h2 {
+  color: green;
+  border: 10px double violet;
+}
+
+h2 {
+  color: #008000;
+  border: 10px dotted violet;
+}
+
+#first_id {
+  background-color: violet;
+}
+
+.class_one {
+  background-color: turquoise;
+}
+
+/* text alignment */
+#id1 {
+  text-align: center;
+}
+#id2 {
+  text-align: right;
+}
+
+/* font weight */
+/* text decoration */
+#id3 {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/* letter spacing */
+#id4 {
+  letter-spacing: 5px;
+}
+/* LINE SPACING */
+#id5 {
+  line-height: 100px;
+  font-size: 50px;
+  font-style: italic;
+  border: 5px solid rgb(248, 165, 10);
+  /* padding:50px;
+        padding-left:100px;
+        padding-right: 50px;
+        padding-bottom:80px;
+        padding: up 50px;
+        CAN BE SIMPLY WRITTEN AS
+        top,right,bottom,left  */
+  padding: 50px 80px 50px 100px;
+  margin-left: 100px;
+  /* same as padding */
+}
+p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  /* if the first font is not avaible then second or then not avaible then third and so on */
+}
+
+/* the latest style will win in the web page */
+
+#id6 {
+  width: 500px;
+  height: 400px;
+}
+
+/* W3SCHOOLS
+    MDN WEBSITES
+     FOR THE REFERENCES */

@@ -1,0 +1,75 @@
+.box1 {
+  background-color: blue;
+  color: aliceblue;
+  width: 300px;
+  height: 300px;
+  /* float: right; */
+  /* float: left; */
+}
+.box2 {
+  background-color: red;
+  color: aliceblue;
+  width: 300px;
+  height: 300px;
+  /* float: right; */
+  /* clear: right; */
+  /* no element should be present at the right of the box2 it clear only the float elements */
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  /* flex-direction: row-reverse; */
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* this is usefull for making the responsive websites it wraps whenever there is a decrease in the size of the screen */
+  /* flex-wrap: wrap-reverse; */
+  /* after the full wrap the order will be reversed */
+  background-color: aqua;
+  height: 100vh;
+  justify-content: center;
+  /* comes to the center in row direction */
+  align-items: center;
+  /* comes to the center in the column direction  if the flex wrap is used then the spaces will come in the boxes between*/
+  /* align-content: center; */
+}
+.hi {
+  background-color: red;
+  color: aliceblue;
+  width: 200px;
+  height: 200px;
+  border: 3px solid black;
+}
+.he {
+  background-color: blue;
+  color: aliceblue;
+  width: 200px;
+  height: 200px;
+  border: 3px solid black;
+  /* order: 4; */
+  /* the second box will move to the 4 thposition */
+  /* align-self: flex-end; */
+  /* flex-grow: 4; */
+  /* helps in growing the size of the container */
+  /* flex-shrink: 2; */
+  /* only work in case of overflow */
+}
+.hel {
+  background-color: red;
+  color: aliceblue;
+  width: 200px;
+  height: 200px;
+  border: 3px solid black;
+}
+.hem {
+  background-color: blue;
+  color: aliceblue;
+  width: 200px;
+  height: 200px;
+  border: 3px solid black;
+}

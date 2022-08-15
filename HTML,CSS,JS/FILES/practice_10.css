@@ -1,0 +1,80 @@
+/* html {
+  font-size: 30px;
+} */
+
+.container {
+  font-size: 30px;
+}
+.box {
+  /* font-size: 20px; */
+  /* font-size: 3em; */
+  /* em is nothing but the parent container size*/
+  /* font-size: 3rem; */
+  /* rem is nothing but the root parent that is html size */
+  background-color: red;
+}
+.box1 {
+  background-color: aqua;
+  width: 50vw; /* it makes 50% of the total width */
+  height: 50vh; /*it makes 50% of the total height */
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.mock {
+  background-color: skyblue;
+  width: 10vw;
+  height: 50vh;
+  min-width: 40vw;
+  /* min width and height restricks the limit of the height and the width */
+}
+header {
+  background-color: black;
+  color: white;
+  height: 80px;
+  position: sticky;
+  top: 0%;
+}
+.hello {
+  display: inline;
+}
+p {
+  text-align: center;
+  border: 3px solid red;
+}
+.buffer {
+  background-color: skyblue;
+  height: 1000px;
+  /* height: 50vh; */
+  width: 50vw;
+  margin: auto; /*helps to come to center */
+}
+.hi {
+  background-color: aquamarine;
+  height: 200px;
+  width: 250px;
+  position: relative;
+  /* now we can use top bottom left and the right functions */
+  /* left: 216px; */
+  /* position: absolute; */
+  /* it starts from the first non stactic father of the html */
+  position: fixed;
+  /* it means it adjusts based on the window size */
+}
+.he {
+  background-color: blue;
+  color: white;
+  height: 200px;
+  width: 250px;
+  left: 216px;
+  /* position: relative;then the upper box will move over it */
+}
+/* THE CONTAINER WITH HIGH Z INDEX WILL BE ALWAYS ON THE TOP */
+.good {
+  list-style: square;
+  padding: 40px;
+  /* border: 3px solid red; */
+  /* list-style: circle inside ; if inside then it will be in the container or else outside space */
+  /* list-style:url(url name); makes it as bullet or circle based on the url that is picture */
+}

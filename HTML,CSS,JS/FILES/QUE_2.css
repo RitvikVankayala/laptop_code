@@ -1,0 +1,30 @@
+.mock {
+  background-color: rgb(0, 0, 255);
+  color: beige;
+}
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+.page {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  color: white;
+}
+.buffer {
+  background-image: url("tom.jpg");
+  background-repeat: no-repeat;
+  background-color: blue;
+  color: white;
+  width: 400px;
+  height: 400px;
+}
+.obj {
+  background-image: url("tom.jpg");
+  background-repeat: repeat-y;
+  background-color: blue;
+  width: 300px;
+  height: 1000px;
+  background-attachment: fixed;
+}

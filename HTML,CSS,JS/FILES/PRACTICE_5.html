@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>practice 4</title>
+  <!-- UL IS UNORDERED list
+    LI IS THE LIST ELEMENTS -->
+  <!-- type attribute is used in the ul for the shape of the bullets but it is not prefferd in html it is preffered to be done in the css part -->
+  <!-- type attribute I is for romman numbers and i for number in i ii ... -->
+  <!-- tr tag table row td for table data th for the table headers -->
+  <!-- caption tag is used for the caption  -->
+  <!-- thead is used to wrap the caption and tr with th -->
+  <!-- tbody is used to wrap the body it is genarrally done for the furthur changes in the css -->
+  <!-- colspan is used for the different rows to come under same heading -->
+  <!-- when two radio have same names then at a time only one can be pressed -->
+  <!-- IF WE DONOT USE THE LABEL TAG THEN ON PRESSING THE MATTER THE RADIO WILL NOT BE CHECKED OUT -->
+  <!-- select tag along with option tag is used for the building of the options in the html -->
+  <!-- video src helps for video uploading
+  iframe tag is used for the video link and the website linking not all website give access to it -->
+  <!-- auto play controls and the loop helps in the autoplaying and the more controls and the revideo options -->
+</head>
+
+<body>
+  <ul type="square">
+    <li>HOME</li>
+    <li>ABOUT</li>
+    <li>CONTACT</li>
+  </ul>
+  <ol type="I">
+    <li>apple</li>
+    <li>mango</li>
+    <li>orange</li>
+  </ol>
+
+  <div>
+    <table>
+      <caption>
+        THE GENERAL INFO
+      </caption>
+      <tr>
+        <th>S.NO</th>
+        <!-- <th>NAME</th>
+          <th>ROLL NO</th> -->
+        <th colspan="3">COLLEGE</th>
+      </tr>
+
+      <tr>
+        <td>1</td>
+        <td>RITVIK</td>
+        <td>1</td>
+        <td>IIT</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>PHANI</td>
+        <td>10</td>
+        <td>MIT</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>BRAHMA</td>
+        <td>100</td>
+        <td>HARVARD</td>
+      </tr>
+    </table>
+  </div>
+  <div>
+    <form>
+      <input type="text" value="enter your name" /><br />
+      <input type="text" placeholder="ENTER YOUR SUR NAME" /><br />
+      <input type="number" placehoder="year of the birth" /><br />
+      <input type="date" /><br />
+      <input type="radio" name="section" value="sectionc">hellohello <br>
+      <label for="sec1">
+        <input type="radio" value="sectiona" name="section" id="sec1" />hehe
+      </label>
+      <br />
+      <label for="sec2">
+        <input type="radio" id="sec2" value="sectionb" name="section" />hihi <br>
+      </label>
+      <input type="checkbox">checkbox <br>
+      <textarea name="general" id="aisowbfh" cols="30" rows="10" placeholder="write what you want"></textarea>
+      <div>
+        <select value="car" id="fdo">
+          select your car
+          <option value="car">benz</option>
+          <option value="car">audi</option>
+          <option value="car">ferrari</option>
+
+        </select>
+      </div>
+    </form>
+    <div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/yhwH9vrhiX4" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+
+    <iframe src="https://www.wikipedia.com" frameborder="0" width="900" height="1200"></iframe>
+    <!-- <video src="write source file" controls autoplay loop></video> -->
+    <!-- <iframe src="" frameborder="0"></iframe> -->
+    <button>click here</button>
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+1)for using the printf and scanf in the c++ use <cstdio>
+2)USE EXCEPTION HANDLING - https://www.youtube.com/watch?v=kjEhqgmEiWY
+3)OPERATOR OVERLOADING - https://www.youtube.com/watch?v=BnMnozsSPmw
+4)what() function try and catch and throw
+5)exception and bad_alloc function in cpp
+6)THIS OPERATOR COMPLETE USES

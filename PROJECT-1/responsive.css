@@ -1,0 +1,31 @@
+@media screen and (max-width: 968px) {
+  body {
+    background-color: aqua;
+  }
+  nav {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .bbb {
+    width: 30vw;
+    margin-right: 0px;
+    padding-left: 5px;
+  }
+  .bb {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  button {
+    margin: 0px;
+  }
+  .logo {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,66 @@
+body {
+  background-color: whitesmoke;
+}
+.container {
+  width: 29vw;
+  height: 51vh;
+  background-color: white;
+  margin: auto;
+  position: relative;
+  top: 50px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+.heading {
+  background-color: white;
+  width: 207px;
+  height: 73px;
+  border-radius: 12px;
+  position: relative;
+  left: 632px;
+  top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+}
+.username,
+.password {
+  width: 319px;
+  height: 30px;
+  position: relative;
+  top: -8px;
+  left: 67px;
+  font-family: "Redressed", cursive;
+  font-size: 20px;
+}
+.h2 {
+  position: relative;
+  top: -3px;
+  left: 7px;
+}
+.h1 {
+  position: relative;
+  left: 150px;
+}
+input {
+  border: 2px solid;
+}
+.btn {
+  position: relative;
+  top: 32px;
+  width: 118px;
+  height: 30px;
+  background-color: skyblue;
+  font-size: 20px;
+  font-style: bold;
+  left: 164px;
+}
+.btn:hover {
+  background-color: yellow;
+}
+.username:hover,
+.password:hover {
+  background-color: yellow;
+  color: black;
+}

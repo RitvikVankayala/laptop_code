@@ -1,0 +1,3 @@
+usage of for(int i:quantity)
+range based for loop in the cpp
+we can include only one header file for all stl that is bits/stdc++.h

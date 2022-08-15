@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Redressed&family=Roboto+Mono:wght@300&display=swap");
+.text {
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.i1 {
+  height: 65px;
+  /* padding-top: 7px; */
+  /* padding-left: 7px; */
+  display: flex;
+  padding-right: 20px;
+}
+.ab {
+  min-height: calc(100vh - 65px - 50px);
+}
+.bb {
+  display: flex;
+  align-items: center;
+  transform: translateX(5px);
+  float: left;
+  padding-left: 10px;
+  margin: 0 70px;
+}
+.bbb {
+  width: 30vw;
+  height: 25px;
+  border-radius: 4px;
+  border: 2px solid black;
+  margin-right: 20px;
+  padding-left: 20px;
+}
+.slider {
+  width: 80vw;
+  margin: auto;
+  overflow: hidden;
+}
+.card {
+  max-width: 95vw;
+  margin: auto;
+}
+.cls1 {
+  margin: 12px 0px 0px 0px;
+}
+.lines {
+  font-weight: 300px;
+}
+.card-item {
+  width: 12vw;
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0px 20px;
+}
+.text-al {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.cards {
+  overflow: scroll;
+}
